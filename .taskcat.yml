@@ -1,0 +1,9 @@
+project:
+  name: xwikicf
+  regions:
+  - us-east-1
+  parameters:
+    xwikiversion: xwiki:12.8-mysql-tomcat
+tests:
+  default:
+    template: xwikicf2.json
