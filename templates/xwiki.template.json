@@ -429,23 +429,10 @@
                 "Action": "kms:*",
                 "Effect": "Allow",
                 "Principal": {
-                  "AWS": {
-                    "Fn::Join": [
-                      "",
-                      [
-                        "arn:",
-                        {
-                          "Ref": "AWS::Partition"
-                        },
-                        ":iam::",
-                        {
-                          "Ref": "AWS::AccountId"
-                        },
-                        ":root"
-                      ]
+                    "AWS": [
+                      "*"
                     ]
-                  }
-                },
+                  },
                 "Resource": "*"
               }
             ],
@@ -485,23 +472,10 @@
                 "Action": "kms:*",
                 "Effect": "Allow",
                 "Principal": {
-                  "AWS": {
-                    "Fn::Join": [
-                      "",
-                      [
-                        "arn:",
-                        {
-                          "Ref": "AWS::Partition"
-                        },
-                        ":iam::",
-                        {
-                          "Ref": "AWS::AccountId"
-                        },
-                        ":root"
-                      ]
+                    "AWS": [
+                      "*"
                     ]
-                  }
-                },
+                  },
                 "Resource": "*"
               },
               {
@@ -529,23 +503,10 @@
                 },
                 "Effect": "Allow",
                 "Principal": {
-                  "AWS": {
-                    "Fn::Join": [
-                      "",
-                      [
-                        "arn:",
-                        {
-                          "Ref": "AWS::Partition"
-                        },
-                        ":iam::",
-                        {
-                          "Ref": "AWS::AccountId"
-                        },
-                        ":root"
-                      ]
+                    "AWS": [
+                      "*"
                     ]
-                  }
-                },
+                  },
                 "Resource": "*"
               },
               {
@@ -571,23 +532,10 @@
                 },
                 "Effect": "Allow",
                 "Principal": {
-                  "AWS": {
-                    "Fn::Join": [
-                      "",
-                      [
-                        "arn:",
-                        {
-                          "Ref": "AWS::Partition"
-                        },
-                        ":iam::",
-                        {
-                          "Ref": "AWS::AccountId"
-                        },
-                        ":root"
-                      ]
+                    "AWS": [
+                      "*"
                     ]
-                  }
-                },
+                  },
                 "Resource": "*"
               },
               {
